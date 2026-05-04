@@ -12,11 +12,11 @@ date: 2026-05-04
 
 ## 方式A: Unicode 麻雀牌（標準サイズ）
 
-🀇🀏🀙🀡🀐🀘🀀🀁🀂🀃🀆🀅🀄
+🀇🀏🀙🀡🀐🀘🀀🀁🀂🀃🀆🀅🀄︎
 
-## 方式B: Unicode 麻雀牌（大きめ）
+## 方式B: Unicode 麻雀牌（1.5em）
 
-<p style="font-size: 2.5em; line-height: 1.2;">🀇🀏🀙🀡🀐🀘🀀🀁🀂🀃🀆🀅🀄</p>
+<p style="font-size: 1.5em; line-height: 1.4;">🀇🀏🀙🀡🀐🀘🀀🀁🀂🀃🀆🀅🀄︎</p>
 
 ## 方式C: テキスト記法 (mpsz)
 
