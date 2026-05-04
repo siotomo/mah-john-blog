@@ -96,4 +96,4 @@ mpsz は m=萬子, p=筒子, s=索子, z=字牌(1=東/2=南/3=西/4=北/5=白/6=
 | D: SVG 標準 | ◎ | ◯ | △ | 一枚ずつ `<img>` で書く |
 | E: SVG 大 | ◎ | ◯ | △ | 大きく表示したい時用 |
 
-実運用では **D 相当を Jekyll の `{% include %}` で短縮** すれば、`{% include hand.html tiles="1m 9m 1p 9p ..." %}` の1行で書けるようになる。
+{% raw %}実運用では **D 相当を Jekyll の `{% include %}` で短縮** すれば、`{% include hand.html tiles="1m 9m 1p 9p ..." %}` の1行で書けるようになる。{% endraw %}
