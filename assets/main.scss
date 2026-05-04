@@ -27,5 +27,6 @@
 
 /* 白(Haku)は背景と紛れやすいので薄い縁取りを付ける */
 img[src*="Haku.svg"] {
-  filter: drop-shadow(0 0 0.5px #999) drop-shadow(0 0 0.5px #999);
+  outline: 1px solid #bbb;
+  outline-offset: -1px;
 }
