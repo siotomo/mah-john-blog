@@ -1,0 +1,31 @@
+---
+---
+@import "minima";
+
+/* 麻雀牌の河（捨て牌）表示 */
+.river {
+  margin: 1em 0;
+  line-height: 0;
+}
+
+.river-row {
+  display: block;
+  margin-bottom: 3px;
+  white-space: nowrap;
+}
+
+.river img {
+  vertical-align: middle;
+}
+
+/* ツモ切り: 背景色で区別。inline style で色は上書き可能 */
+.tsumogiri {
+  display: inline-block;
+  background-color: #d8d8d8;
+  border-radius: 2px;
+}
+
+/* 白(Haku)は背景と紛れやすいので薄い縁取りを付ける */
+img[src*="Haku.svg"] {
+  filter: drop-shadow(0 0 0.5px #999) drop-shadow(0 0 0.5px #999);
+}
