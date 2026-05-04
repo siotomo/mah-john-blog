@@ -1,0 +1,7 @@
+title: mah-john
+description: 麻雀の学びをまとめるブログ
+baseurl: "/mah-john-blog"
+url: "https://siotomo.github.io"
+theme: minima
+plugins:
+  - jekyll-feed
